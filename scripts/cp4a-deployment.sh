@@ -74,7 +74,7 @@ function prompt_license(){
     
     if [[ $retVal_baw -eq 0 ]]; then
         echo -e "\x1B[1;31mIMPORTANT: Review the IBM Business Automation Workflow license information here: \n\x1B[0m"
-        echo -e "\x1B[1;31mhttps://github.com/ibmbpm/BAW-Ctnr/blob/20.0.2/LICENSE\n\x1B[0m"
+        echo -e "\x1B[1;31mhttps://github.com/ibmbpm/BAW-Ctnr/blob/20.0.0.1/LICENSE\n\x1B[0m"
     fi
     if [[ $retVal_baw -eq 1 ]]; then
         echo -e "\x1B[1;31mIMPORTANT: Review the IBM Cloud Pak for Automation license information here: \n\x1B[0m"
