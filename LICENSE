@@ -1,18 +1,20 @@
-The translated license terms can be viewed here: http://www14.software.ibm.com/cgi-bin/weblap/lap.pl?li_formnum=L-ASAY-BU8EWB
+The translated license terms can be viewed here: http://www14.software.ibm.com/cgi-bin/weblap/lap.pl?li_formnum=L-ASAY-BWYJP4
 
 LICENSE INFORMATION
 
 The Programs listed below are licensed under the following License Information terms and conditions in addition to the Program license terms previously agreed to by Client and IBM. If Client does not have previously agreed to license terms in effect for the Program, the International Program License Agreement (Z125-3301-14) applies.
 
 Program Name (Program Number):
-IBM Business Automation Workflow Enterprise V20.0.0.2 (5737-H41)
-IBM Business Automation Workflow Enterprise for Non-Production Environment V20.0.0.2 (5737-H41)
+IBM Business Automation Workflow Enterprise V21.0.2 (5737-H41)
+IBM Business Automation Workflow Enterprise for Non-Production Environment V21.0.2 (5737-H41)
 
 The following standard terms apply to Licensee's use of the Program.
 
 Limited use right
 
-Licensee is not authorized to use the Program to provide commercial IT services to any third party, to provide commercial hosting or timesharing, or to sublicense, rent, or lease the Program unless expressly provided for in the applicable agreements under which Licensee obtains authorizations to use the Program.
+With the exception of Bundled Programs, all IBM software provided to Licensee with the Program can only be used to support Licensee's use of the Principal Program under this License Information document, which means such use must be directly related to a licensed use of the Principal Program.
+
+Licensee is not authorized to use the Program to provide commercial IT services to any third party, to provide commercial hosting or timesharing, or to sublicense, rent, or lease the Program.
 
 Prohibited Uses
 
@@ -186,6 +188,8 @@ IBM Business Automation Workflow Enterprise
 
 "Conversion Entitlement Ratio n/m" means that Licensee can convert some number ('n') entitlements of the indicated metric for the listed program for every specified number ('m') entitlements of the specified metric for the Program. Once converted, Licensee may only use such converted entitlements for the listed program. The specified conversion does not apply to any entitlements for the Program that are not of the required metric type.
 
+If the Client has acquired the Program as a result of a trade up or subscription license upgrade for the IBM Cloud Pak for Business Automation and IBM Business Automation Workflow User-Based Trade Up and Subscription License Upgrade Restriction, the Client must measure deployment for the trade up and subscription license upgrade on the user-based metrics of Authorized User, Employee User, External User, Concurrent User, and/or Infrequent User. No other metric shall be used for deployment measurement for license trade up and subscription license upgrade and subsequent additional license to this Program.
+
 
 Infrequent User
 
@@ -240,9 +244,9 @@ Business Automation Insight (of IBM Cloud Pak for Automation) Restrictions:
 Business Automation Application Engine (of IBM Cloud Pak for Automation) Restrictions:
 - The Licensee shall limit usage of Business Automation Application to only run the Workplace application. The Business Automation Application Engine may use a maximum of the number of VPCs of the Program.
 
-L/N:  L-ASAY-BU8EWB
-D/N:  L-ASAY-BU8EWB
-P/N:  L-ASAY-BU8EWB
+L/N:  L-ASAY-BWYJP4
+D/N:  L-ASAY-BWYJP4
+P/N:  L-ASAY-BWYJP4
 
 
 International Program License Agreement
