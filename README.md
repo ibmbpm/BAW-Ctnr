@@ -1,7 +1,7 @@
-# IBM Business Automation Workflow on Containers 21.0.2
+# IBM Business Automation Workflow on Containers 24.0.0
 This repository includes the scripts, Kubernetes descriptors and resources to help you install the IBM Business Automation Workflow on Containers. Installation of the software components is done with the Cloud Pak operator. 
 
-For information about installing, configuring, and running IBM Business Automation Workflow, see  [IBM Business Automation Workflow documentation](https://www.ibm.com/docs/en/baw/20.x).
+For information about installing, configuring, and running IBM Business Automation Workflow, see  [IBM Business Automation Workflow documentation](https://www.ibm.com/docs/en/baw/24.x).
 
 LICENSE for users of this repository [LICENSE](LICENSE)
 
