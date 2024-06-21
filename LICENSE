@@ -1,12 +1,12 @@
-The translated license terms can be viewed here: https://www14.software.ibm.com/cgi-bin/weblap/lap.pl?li_formnum=L-MVWM-ZKAC6A
+The translated license terms can be viewed here: https://www14.software.ibm.com/cgi-bin/weblap/lap.pl?li_formnum=L-UEJG-Z2937H
 
 LICENSE INFORMATION
 
 The Programs listed below are licensed under the following License Information terms and conditions in addition to the Program license terms previously agreed to by Client and IBM. If Client does not have previously agreed to license terms in effect for the Program, the International Program License Agreement (i125-3301-15) applies.
 
 Program Name (Program Number):
-IBM Business Automation Workflow Enterprise V23.0.2 (5737-H41)
-IBM Business Automation Workflow Enterprise for Non-Production Environment V23.0.2 (5737-H41)
+IBM Business Automation Workflow Enterprise V24.0.0.0 (5737-H41)
+IBM Business Automation Workflow Enterprise for Non-Production Environment V24.0.0.0 (5737-H41)
 
 The following standard terms apply to Licensee's use of the Program.
 
@@ -40,7 +40,6 @@ Licensee is permitted to use only the following components or functions of the i
 - Business Automation Insight (of IBM Cloud Pak for Automation) 
 - Business Automation Application Engine (of IBM Cloud Pak for Automation)
 - IBM Business Automation Navigator (of IBM Cloud Pak for Automation)
-- IBM FileNet Content Manager using Elasticsearch or OpenSearch for text searching for Non-Production Environments
 
 Prohibited Components
 
@@ -134,6 +133,10 @@ Concurrent User
 
 Concurrent User is a unit of measure by which the Program can be licensed. A Concurrent User is a person who is accessing the Program at any particular point in time. Regardless of whether the person is simultaneously accessing the Program multiple times, the person counts only as a single Concurrent User. The Program may be installed on any number of computers or servers, but Licensee must obtain entitlements for the maximum number of Concurrent Users simultaneously accessing the Program. Licensee must obtain an entitlement for each simultaneous Concurrent User accessing the Program in any manner directly or indirectly (for example: via a multiplexing program, device, or application server) through any means.
 
+Events Per Second (EPS)
+
+100, 500, 1K, and 2.5K Events Per Second are units of measure by which the Program can be obtained. An event is a log event generated from a server, application or device that can be processed for a specific purpose. Sufficient entitlements must be obtained to cover the maximum number of Events Per Second to be collected and processed by the Program at any time.
+
 Processor Value Unit (PVU)
 
 Processor Value Unit (PVU) is a unit of measure by which the Program can be licensed. The number of PVU entitlements required is based on the processor technology (defined within the Processor Value Unit (PVU) licensing for Distributed Software website at https://www.ibm.com/software/passportadvantage/pvu_licensing_for_customers.html) and the number of processors made available to the Program. IBM continues to define a processor, for the purpose of PVU-based licensing, to be each processor core on a chip. A dual-core processor chip, for example, has two processor cores.
@@ -153,7 +156,7 @@ Licensee is permitted to process 150 Content Operations and 300 Workflow Operati
 A Content Operation is each access or update to a document, folder or custom object within the Program as measured in the Program's usage tracking. 
 
 A Workflow Operation is accessing or performing a task in a workflow instance within the Program as measured in the Program's usage tracking. Each single workflow instance update counts as one individual Workflow Operation.
-
+ 
 Entitlement Conversion Details 
 
 Entitlement Values 
@@ -170,18 +173,24 @@ OR
 OR
 - Conversion Entitlement Ratio: 18 Employee Users / 1 VPC 
 - Conversion Entitlement Ratio: 1782 External Users / 1 VPC, where Licensee measures entitlement by Authorized or Employee User
-
-If Licensee purchases VPC entitlements on or after December 16, 2022 and measures usage by capacity, Licensee must have entitlement to 5 VPCs for each Physical Core deployment of the Program.
-
-If Licensee purchased VPC entitlements prior to December 16, 2022, Licensee may continue to convert such VPC entitlements to PVUs per the following ratios:
  
+If Licensee purchases VPC entitlements on or after December 16, 2022 and measures usage by capacity, Licensee must have 
+entitlement to 5 VPCs for each Physical Core deployment of the Program.
+
+If Licensee purchased VPC entitlements prior to December 16, 2022, Licensee may continue to convert such VPC entitlements to PVUs per the 
+following ratios:
+
 - Conversion Entitlement Ratio: 14 PVUs / 1 VPC
 - Conversion Entitlement Ratio: 28 Non-Production PVUs / 1 VPC
 
+FileNet
+Content Manager Text Search using Elasticsearch or OpenSearch (Component of the Program), instead of Content Search Services:
+- Conversion Entitlement Ratio: 7 Events per Second / 70 PVU
+- Events per Second equals documents indexed per second.
+
 "Conversion Entitlement Ratio n/m" means that Licensee can convert some number ('n') entitlements of the indicated metric for the listed program for every specified number ('m') entitlements of the specified metric for the Program. Once converted, Licensee may only use such converted entitlements for the listed program. The specified conversion does not apply to any entitlements for the Program that are not of the required metric type.
-
+ 
 If the Client has acquired the Program as a result of a trade up or subscription license upgrade for the IBM Cloud Pak for Business Automation and IBM Business Automation Workflow User-Based Trade Up and Subscription License Upgrade Restriction, the Client must measure deployment for the trade up and subscription license upgrade on the user-based metrics of Authorized User, Employee User, External User, Concurrent User, and/or Infrequent User. No other metric shall be used for deployment measurement for license trade up and subscription license upgrade and subsequent additional license to this Program.
-
 
 Infrequent User
 
@@ -237,9 +246,9 @@ Business Automation Application Engine (of IBM Cloud Pak for Automation) Restric
 - The Licensee shall limit usage of Business Automation Application to only run the Workplace application. The Business Automation Application Engine may use a maximum of the number of VPCs of the Program.
 
 
-L/N: L-MVWM-ZKAC6A
-D/N: L-MVWM-ZKAC6A
-P/N: L-MVWM-ZKAC6A
+L/N: L-UEJG-Z2937H
+D/N: L-UEJG-Z2937H
+P/N: L-UEJG-Z2937H
 
 International Program License Agreement
 
@@ -742,3 +751,4 @@ In Czech Republic: Licensee expressly accepts the terms of this agreement which 
 In Romania: The Licensee expressly accepts, the following standard clauses that may be deemed 'unusual clauses' as per the provisions of article 1203 Romanian Civil Code: clauses 2, 4, 5, 8j. The Licensee hereby acknowledges that it was sufficiently informed of all the provisions of this Agreement, including the clauses mentioned above, it properly analyzed and understood such provisions and had the opportunity to negotiate the terms of each clause.
 
 i125-3301-15 (10-2021)
+
