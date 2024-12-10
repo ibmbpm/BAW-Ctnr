@@ -1,12 +1,12 @@
-The translated license terms can be viewed here: https://www14.software.ibm.com/cgi-bin/weblap/lap.pl?li_formnum=L-UEJG-Z2937H
+The translated license terms can be viewed here: https://www.ibm.com/support/customer/csol/terms/?li=L-GPHE-W5RGSC
 
 LICENSE INFORMATION
 
 The Programs listed below are licensed under the following License Information terms and conditions in addition to the Program license terms previously agreed to by Client and IBM. If Client does not have previously agreed to license terms in effect for the Program, the International Program License Agreement (i125-3301-15) applies.
 
 Program Name (Program Number):
-IBM Business Automation Workflow Enterprise V24.0.0.0 (5737-H41)
-IBM Business Automation Workflow Enterprise for Non-Production Environment V24.0.0.0 (5737-H41)
+IBM Business Automation Workflow Enterprise V24.0.1.0 (5737-H41)
+IBM Business Automation Workflow Enterprise for Non-Production Environment V24.0.1.0 (5737-H41)
 
 The following standard terms apply to Licensee's use of the Program.
 
@@ -53,6 +53,7 @@ Licensee is not authorized to use any of the following components or functions o
 - IBM WebSphere Application Server 9.0 (of IBM Db2 Standard Edition)
 - IBM Data Server Manager Enterprise Edition 2.1.5 (of IBM Db2 Standard Edition)
 - Workflow Center when used in Non-Production, unless for Use by Developer
+
 
 Non-Production Limitation
 
@@ -113,7 +114,7 @@ Licensee may disclose the results of any benchmark test of the Program or its su
 Notwithstanding the foregoing, under no circumstances may Licensee publish the results of benchmark tests run on Oracle Outside In Technology without prior written permission.
 
 The above benchmarking terms apply to the following Programs or subcomponents:
-
+ 
 
 Source Components and Sample Materials
 
@@ -162,7 +163,6 @@ Entitlement Conversion Details
 Entitlement Values 
 
 IBM Business Automation Workflow Enterprise
-
 - Conversion Entitlement Ratio: 1 VPC/ 5 VPCs
 - Conversion Entitlement Ratio for Non-Production Environment: 2 VPCs/ 5 VPCs
 OR
@@ -174,16 +174,14 @@ OR
 - Conversion Entitlement Ratio: 18 Employee Users / 1 VPC 
 - Conversion Entitlement Ratio: 1782 External Users / 1 VPC, where Licensee measures entitlement by Authorized or Employee User
  
-If Licensee purchases VPC entitlements on or after December 16, 2022 and measures usage by capacity, Licensee must have 
-entitlement to 5 VPCs for each Physical Core deployment of the Program.
+If Licensee purchases VPC entitlements on or after December 16, 2022 and measures usage by capacity, Licensee must have entitlement to 5 VPCs for each Physical Core deployment of the Program.
 
-If Licensee purchased VPC entitlements prior to December 16, 2022, Licensee may continue to convert such VPC entitlements to PVUs per the 
-following ratios:
-
+If Licensee purchased VPC entitlements prior to December 16, 2022, Licensee may continue to convert such VPC entitlements to PVUs per the following ratios:
 - Conversion Entitlement Ratio: 14 PVUs / 1 VPC
 - Conversion Entitlement Ratio: 28 Non-Production PVUs / 1 VPC
 
 FileNet
+
 Content Manager Text Search using Elasticsearch or OpenSearch (Component of the Program), instead of Content Search Services:
 - Conversion Entitlement Ratio: 7 Events per Second / 70 PVU
 - Events per Second equals documents indexed per second.
@@ -246,9 +244,9 @@ Business Automation Application Engine (of IBM Cloud Pak for Automation) Restric
 - The Licensee shall limit usage of Business Automation Application to only run the Workplace application. The Business Automation Application Engine may use a maximum of the number of VPCs of the Program.
 
 
-L/N: L-UEJG-Z2937H
-D/N: L-UEJG-Z2937H
-P/N: L-UEJG-Z2937H
+L/N: L-GPHE-W5RGSC
+D/N: L-GPHE-W5RGSC
+P/N: L-GPHE-W5RGSC
 
 International Program License Agreement
 

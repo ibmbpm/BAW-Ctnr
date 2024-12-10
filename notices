@@ -1,7 +1,7 @@
 NOTICES AND INFORMATION
 
-IBM Business Automation Workflow Enterprise V24.0.0.0
-IBM Business Automation Workflow Enterprise for Non-Production Environment V24.0.0.0
+IBM Business Automation Workflow Enterprise V24.0.1.0
+IBM Business Automation Workflow Enterprise for Non-Production Environment V24.0.1.0
 
 The IBM license agreement and any applicable information on the web
 download page for IBM products refers Licensee to this file for details
@@ -295,6 +295,8 @@ JSR
 jsr305
 js-xlsx
 Kafka-clients
+kotlin-stdlib
+kotlin-stdlib-jdk8
 lang-mustache-client
 Less.js
 Less4j
@@ -304,6 +306,7 @@ log4j:log4j
 log4j-api
 log4j-core
 log4j-to-slf4j
+logging-interceptor
 Lucene
 lucene-analyzers-common
 lucene-core
@@ -340,6 +343,8 @@ net.wasdev.wlp.ant:wlp-anttasks
 net.ypresto.qtfaststartjava:qtfaststart
 ognl:ognl
 ojb:db-ojb
+okhttp
+okhttp-urlconection
 OpenAjaxHub
 OpenStack4j
 Openstack4j-core
@@ -493,6 +498,7 @@ org.apache.maven:maven-artifact-manager
 org.apache.maven:maven-error-diagnostics
 org.apache.maven:maven-model
 org.apache.maven:maven-plugin-registry
+
 org.apache.maven:maven-profile
 org.apache.maven:maven-project
 org.apache.maven:maven-repository-metadata
@@ -993,6 +999,7 @@ ant-apache-bcel.jar
 ant-apache-bsf.jar
 ant-apache-log4j.jar
 ant-apache-oro.jar
+
 ant-apache-regexp.jar
 ant-apache-resolver.jar
 ant-commons-logging.jar
@@ -1493,6 +1500,7 @@ org.apache:jasper-runtime
 org.apache:jena
 org.apache:kafka-clients
 org.apache:log4j
+
 org.apache:opensaml
 org.apache:oro
 org.apache:regexp
@@ -1992,6 +2000,7 @@ Copyright (c) 2005-2014, The Dojo Foundation All rights reserved. All rights res
 
 Dojo Toolkit 1.10
 Copyright (c) 2005-2014, The Dojo Foundation All rights reserved. All rights reserved.
+
 
 _______________________________________________________
 
@@ -2493,6 +2502,7 @@ WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 Except as contained in this notice, the name of a copyright holder shall not be 
 used in advertising or otherwise to promote the sale, use or other dealings in 
+
 this Software without prior written authorization of the copyright holder.
 
 All trademarks and registered trademarks mentioned herein are the property of 
@@ -2994,6 +3004,7 @@ org.eclipse:swt | https://mvnrepository.com/artifact/org.eclipse/swt/3.2.1
 org.eclipse:text | https://mvnrepository.com/artifact/org.eclipse.text/org.eclipse.text/3.2.0
 org.osgi:org.osgi.compendium | https://mvnrepository.com/artifact/org.osgi/org.osgi.compendium/4.0.0
 
+
 Modified Eclipse Platform Classes (EMF) and Eclipse SDK Classes
 IBM made certain modifications to the Eclipse Code for the EMF component, which modifications are referred to as the `Eclipse Platform Classes (EMF)`. The Eclipse Platform Classes (EMF) were not contributed back to the Eclipse Foundation because they are unique to this Program and its EMF component. The list of modified Eclipse Platform Classes and source code for the Eclipse Platform Classes can be found in the technote `Open source content for SDO 2.1 functionality` (http://www-01.ibm.com/support/docview.wss?uid=swg21269357)
 
@@ -3143,6 +3154,10 @@ Copyright (c) Microsoft Corporation. All rights reserved.
 @types/react	
 Copyright (c) Microsoft Corporation. All rights reserved.
 
+@types/react-transition-group
+Copyright (c) 2018, React Community
+Forked from React (https://github.com/facebook/react) Copyright 2013-present, Facebook, Inc.
+
 accepts
 Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>. Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
 
@@ -3239,6 +3254,9 @@ Copyright (c) 2011-2023 The Bootstrap Authors
 
 bootstrap.min.js
 Copyright (c) 2008-present, SpryMedia Limited
+
+browserslist
+Copyright 2014 Andrey Sitnik <andrey@sitnik.ru> and other contributors
 
 bytes
 Copyright (c) 2012-2014 TJ Holowaychuk <tj@vision-media.ca> Copyright (c) 2015 Jed Watson <jed.watson@me.com>
@@ -3402,6 +3420,9 @@ Copyright (c) 2013-2018, Viacheslav Lotsmanov
 deep-eql
 Copyright (c) 2013 Jake Luer <jake@alogicalparadox.com> (http://alogicalparadox.com)
 
+define-data-property
+Copyright (c) 2023 Jordan Harband
+
 destroy
 Copyright (c) 2014 Jonathan Ong me@jongleberry.comCopyright (c) 2015-2022 Douglas Christopher Wilson doug@somethingdoug.com
 
@@ -3434,6 +3455,12 @@ Copyright (C) 2009-2014 Kristopher Michael Kowal and contributors
 
 escape-html
 Copyright (c) 2012-2013 TJ HolowaychukCopyright (c) 2015 Andreas LubbeCopyright (c) 2015 Tiancheng "Timothy" Gu
+
+es-define-property
+Copyright (c) 2024 Jordan Harband
+
+es-errors
+Copyright (c) 2024 Jordan Harband
 
 Eslint 
 Copyright JS Foundation and other contributors, https://js.foundation
@@ -3477,6 +3504,7 @@ Copyright (c) 2015-2016 David Clark
 focus-trap-react
 Copyright (c) 2015 David Clark
 
+
 follow-redirects
 Copyright 2014–present Olivier Lalonde <olalonde@gmail.com>, James Talmage <james@talmage.io>, Ruben Verborgh
 
@@ -3507,6 +3535,9 @@ Copyright (c) 2013 Jake Luer <jake@alogicalparadox.com> (http://alogicalparadox.
 get-intrinsic
 Copyright (c) 2020 Jordan Harband
 
+gopd
+Copyright (c) 2022 Jordan Harband
+
 Gunicorn
 2009-2018 (c) Benoît Chesneau <benoitc@e-engura.org>
 2009-2015 (c) Paul J. Davis <paul.joseph.davis@gmail.com>
@@ -3529,6 +3560,15 @@ Copyright (C) 2011-2019 by Yehuda Katz
 has
 Copyright (c) 2013 Thiago de Arruda
 
+hasown
+Copyright (c) Jordan Harband and contributors
+
+has-property-descriptors
+Copyright (c) 2022 Inspect JS
+
+has-proto
+Copyright (c) 2022 Inspect JS
+
 has-symbols
 Copyright (c) 2016 Jordan Harband
 
@@ -3545,7 +3585,7 @@ http-proxy-middleware
 Copyright (c) 2015 Steven Chim
 
 httptools
-Copyright (c) 2015 MagicStack Inc.  http://magic.ioCopyright Fedor Indutny  2018.Copyright Joyent  Inc. and other Node contributors.
+Copyright (c) 2015 MagicStack Inc.  http://magic.ioCopyright Fedor Indutny  2018.Copyright Joyent  Inc. and other Node contributors.
 
 husky
 Copyright (c) 2021 typicode
@@ -3642,6 +3682,9 @@ Copyright (c) 2014, 2015, 2016, 2017, 2018, 2019 Simon Lydell
 
 jsZip 
 (c) 2009-2014 Stuart Knightley <stuart [at] stuartk.com>
+
+jwt-decode
+Copyright (c) 2015 Auth0, Inc. <support@auth0.com> (http://auth0.com)
 
 Keras
 All contributions by François Chollet:
@@ -3901,7 +3944,7 @@ proxy-addr
 Copyright (c) 2014-2016 Douglas Christopher Wilson
 
 pydantic
-Copyright (c) 2017  2018  2019  2020  2021 Samuel Colvin and other contributors
+Copyright (c) 2017  2018  2019  2020  2021 Samuel Colvin and other contributors
 
 pydot
 Copyright (c) 2014 Carlos Jenkins Copyright (c) 2014 Lance Hepler Copyright (c) 2004 Ero Carrera
@@ -3962,7 +4005,10 @@ react-redux
 Copyright (c) 2015-present Dan Abramov
 
 react-router
-Copyright (c) React Training 2016-2018
+
+Copyright (c) React Training LLC 2015-2019
+Copyright (c) Remix Software Inc. 2020-2021
+Copyright (c) Shopify Inc. 2022-2023
 
 react-router-dom
 Copyright (c) React Training LLC 2015-2019
@@ -3974,6 +4020,9 @@ Copyright (c) 2017–2023 Wojciech Maj
 
 react-scripts
 Copyright (c) 2013-present, Facebook, Inc.
+
+reactive-streams
+Copyright 2014 Reactive Streams
 
 redux
 Copyright (c) 2015-present Dan Abramov
@@ -4019,6 +4068,9 @@ Copyright (c) 2012 TJ HolowaychukCopyright (c) 2014-2022 Douglas Christopher Wil
 
 serve-static
 Copyright (c) 2010 Sencha Inc. Copyright (c) 2011 LearnBoostCopyright (c) 2011 TJ HolowaychukCopyright (c) 2014-2016 Douglas Christopher Wilson
+
+set-function-length
+Copyright (c) Jordan Harband and contributors
 
 Setimmediate 	
 Copyright (c) 2012 Barnesandnoble.com, llc, Donavon West, and Domenic Denicola
@@ -4106,7 +4158,7 @@ ui-grid
 Copyright (c) 2013-2015 the Angular-UI team, http://angular-ui.github.com
 
 ui-grid.min.js
-Copyright (c) 2015 the AngularUI Team, http://angular-ui.github.com
+Copyright (c) 2015 the AngularUI Team, http://angular-ui.github.com
 
 uid-safe
 Copyright (c) 2014 Jonathan Ong <me@jongleberry.com> Copyright (c) 2015-2017 Douglas Christopher Wilson <doug@somethingdoug.com>
@@ -4406,7 +4458,7 @@ bootstrap.min.js | Copyright (c) 2008-present, SpryMedia Limited
 bouncycastle:bcprov-jdk15 | Copyright (c) 2000 - 2023 The Legion of the Bouncy Castle Inc.
 bytes | Copyright (c) 2012-2014 TJ Holowaychuk <tj@vision-media.ca> Copyright (c) 2015 Jed Watson <jed.watson@me.com>
 call-bind | Copyright (c) 2020 Jordan Harband
-ch.randelshofer:fastdoubleparser | Copyright (c) 2023 Werner Randelshofer  Switzerland.
+ch.randelshofer:fastdoubleparser | Copyright (c) 2023 Werner Randelshofer  Switzerland.
 com.auth0:java-jwt | Copyright (c) 2015 Auth0, Inc. <support@auth0.com> (http://auth0.com)
 com.eclipsesource.minimal-json:minimal-json | Copyright (c) 2016 EclipseSource.
 content-disposition | Copyright (c) 2014-2017 Douglas Christopher Wilson
@@ -4454,6 +4506,7 @@ jquery-3.7.0.min.js | Copyright OpenJS Foundation and other contributors And htt
 jquery-ui-1.7.1.custom.min.js | Copyright (c) 2009 Paul Bakaus
 jquery-ui.min.js | Copyright jQuery Foundation and other contributors
 jquery-ui.theme.min.css | Copyright jQuery Foundation and other contributors
+
 jquery.contextMenu.min.css | Copyright (c) 2011-2020 SWIS BV and contributors
 jquery.contextMenu.min.js | Copyright (c) 2010-2016 SWIS BV
 jquery.min.js | Copyright (c) 2005 And 2014 jQuery Foundation
@@ -4478,7 +4531,7 @@ org.bouncycastle:bcprov-jdk15 | Copyright (c) 2000-2021 The Legion of the Bouncy
 org.bouncycastle:bcprov-jdk15on | Copyright (c) 2000-2021 The Legion of the Bouncy Castle Inc.
 org.bouncycastle:bcprov-jdk18on | Copyright (c) 2000-2023 The Legion Of The Bouncy Castle Inc. (https://www.bouncycastle.org)
 org.checkerframework:checker-qual | Copyright 2004-present by the Checker Framework developers
-org.easymock:easymock | Copyright (c) 2001-2008 OFFIS  Tammo Freese.
+org.easymock:easymock | Copyright (c) 2001-2008 OFFIS  Tammo Freese.
 org.jsoup:jsoup | Copyright (c) 2002 JSON.org
 org.kohsuke:args4j | Copyright (c) 2013 Kohsuke Kawaguchi and other contributors
 org.mockito:mockito | Copyright (c) 2007 Mockito contributors
@@ -4721,7 +4774,7 @@ eu.neilalexander:jnacl | Copyright (c) 2011, Neil Alexander T.
 jotm:jotm | Copyright © 1999-2005 And ObjectWeb Consortium
 org.jvnet.jaxb2_commons:jaxb2-basics | Copyright (c) 2005-2014 Alexey Valikov.
 org.owasp.esapi:esapi | Copyright (c) 2007-2019 - The OWASP Foundation
-org.postgresql:postgresql | Copyright (c) 1997  PostgreSQL Global Development Group
+org.postgresql:postgresql | Copyright (c) 1997  PostgreSQL Global Development Group
 
 
 HDRHISTOGRAM [elasticsearch] (Copyright (c) 2012, 2013, 2014 Gil Tene
@@ -4735,7 +4788,7 @@ HTTP-CACHE-SEMANTICS (Copyright 2016-2018 Kornel Lesi≈Ñski), ESPRIMA
 zstd-jni (Copyright (c) 2015-present, Luben Karavelov/ All rights reserved.)
 decorator (Copyright (c) 2005-2017 Michele Simionato)
 hamcrest-core (Copyright (c) 2000-2006 hamcrest.org)
-postgresql (Copyright (c) 1997  PostgreSQL Global Development Group)
+postgresql (Copyright (c) 1997  PostgreSQL Global Development Group)
 
 
 Redistribution and use in source and binary forms, with or without 
@@ -4885,11 +4938,11 @@ Jinja2 (Copyright 2007 Pallets)
 MarkupSafe (Copyright 2010 Pallets)
 click (Copyright 2014 Pallets)
 dsl-json (Copyright 2010 the V8 project authors. All rights reserved.)
-api-common (Copyright 2017  Google Inc.)
-gax (Copyright 2017  Google Inc.)
-gax-httpjson (Copyright 2017  Google Inc.)
+api-common (Copyright 2017  Google Inc.)
+gax (Copyright 2017  Google Inc.)
+gax-httpjson (Copyright 2017  Google Inc.)
 google-auth-library-credentials (Copyright 2022 Google LLC)
-google-auth-library-oauth2-http (Copyright 2015  Google Inc. All rights reserved.)
+google-auth-library-oauth2-http (Copyright 2015  Google Inc. All rights reserved.)
 protobuf-java (Copyright 2008 Google Inc.  All rights reserved.)
 protobuf-java-util (Copyright 2014, Google Inc. All rights reserved.)
 jakarta.activation (Copyright (c) 1997  2018 Oracle and/or its affiliates. All rights reserved.)
@@ -4907,7 +4960,7 @@ jakarta.xml.bind-api (Copyright (c) 2018 Oracle and/or its affiliates. All right
 joblib (Copyright (c) 2008-2021, The joblib developers.)
 kiwisolver (Copyright (c) 2013  Nucleic Development Team.)
 xsdlib (Copyright (c) 2001-2013 Oracle and/or its affiliates.)
-networkx (Copyright (c) 2004-2020  NetworkX Developers)
+networkx (Copyright (c) 2004-2020  NetworkX Developers)
 numpy (Copyright (c) 2005-2017, NumPy Developers. All rights reserved.)
 antlr4-runtime (Copyright (c) 2013 Terence Parr)
 stax2-api (Copyright (c) 2005- Tatu Saloranta  tatu.saloranta@iki.fi)
@@ -4916,20 +4969,20 @@ jline-style (Copyright (c) 2002-2018, the original author or auth)
 jline-terminal (Copyright (c) 2002-2018, the original author or auth)
 jline-terminal-jna (Copyright (c) 2002-2018, the original author or auth)
 asm (Copyright (c) 2000-2011 INRIA, France Telecom  All rights reserved.)
-asm-analysis (Copyright (c) 2000-2011 INRIA  France Telecom)
-asm-commons (Copyright (c) 2000-2011 INRIA  France Telecom)
-asm-tree (Copyright (c) 2000-2011 INRIA  France Telecom)
-asm-util (Copyright (c) 2000-2011 INRIA  France Telecom)
-threetenbp (Copyright (c) 2007-present  Stephen Colebourne & Michael Nascimento Santos)
-pandas (Copyright (c) 2008 Stefan van der Walt <stefan@mentat.za.net>  Pauli Virtanen <pav@iki.fi>Copyright (c) 2005  NumPy Developers Copyright (c) 2011  Kevin Dunn  Surya K  Pauli Virtanen  the Sphinx team)
+asm-analysis (Copyright (c) 2000-2011 INRIA  France Telecom)
+asm-commons (Copyright (c) 2000-2011 INRIA  France Telecom)
+asm-tree (Copyright (c) 2000-2011 INRIA  France Telecom)
+asm-util (Copyright (c) 2000-2011 INRIA  France Telecom)
+threetenbp (Copyright (c) 2007-present  Stephen Colebourne & Michael Nascimento Santos)
+pandas (Copyright (c) 2008 Stefan van der Walt <stefan@mentat.za.net>  Pauli Virtanen <pav@iki.fi>Copyright (c) 2005  NumPy Developers Copyright (c) 2011  Kevin Dunn  Surya K  Pauli Virtanen  the Sphinx team)
 python-dateutil (Copyright (c) 2003-2011 - Gustavo Niemeyer <gustavo@niemeyer.net> Copyright (c) 2012-2014 - Tomi)
-python-dotenv (Copyright (c) 2014  Saurabh Kumar (python-dotenv)  2013  Ted Tieken (django-dotenv-rw)  2013  Jacob Kaplan-Moss (django-dotenv)Copyright (c) 2014  Saurabh Kumar (python-dotenv)  2013  Ted Tieken (django-dotenv-rw)  2013  Jacob Kaplan-Moss (django-dotenv))
-relaxngDatatype (Copyright (c) 2001  Thai Open Source Software Center Ltd)
+python-dotenv (Copyright (c) 2014  Saurabh Kumar (python-dotenv)  2013  Ted Tieken (django-dotenv-rw)  2013  Jacob Kaplan-Moss (django-dotenv)Copyright (c) 2014  Saurabh Kumar (python-dotenv)  2013  Ted Tieken (django-dotenv-rw)  2013  Jacob Kaplan-Moss (django-dotenv))
+relaxngDatatype (Copyright (c) 2001  Thai Open Source Software Center Ltd)
 scikit-learn (Copyright (c) 2007-2023 The scikit-learn developers.)
 scipy (Copyright (c) 2003-2019, SciPy Developers.)
-starlette (Copyright (c) 2018  [Encode OSS Ltd](https://www.encode.io/))
+starlette (Copyright (c) 2018  [Encode OSS Ltd](https://www.encode.io/))
 threadpoolctl (Copyright (c) 2019  threadpoolctl contributors)
-uvicorn (Copyright (c) 2017-present  [Encode OSS Ltd](https://www.encode.io/))
+uvicorn (Copyright (c) 2017-present  [Encode OSS Ltd](https://www.encode.io/))
 websockets (Copyright (c) Aymeric Augustin and contributors)
 antlr:antlr | Copyright (c) 2012-2022 The ANTLR Project. All rights reserved.
 asm:asm | Copyright (c) 2000-2007 INRIA France Telecom
@@ -4954,6 +5007,7 @@ com.yahoo:yuicompressor | Copyright (c) 2013 And Yahoo! Inc.
 dijit | Copyright (c) 2005-2018 And The JS Foundation
 dojo | Copyright (c) 2005-2018 And The JS Foundation
 dojox | Copyright (c) 2005-2018, The JS Foundation
+
 jakarta.activation:jakarta.activation-api | Copyright (c) 2018 Oracle and/or its affiliates. All rights reserved.
 jakarta.xml.bind:jakarta.xml.bind-api | Copyright (c) 2017, 2018 Oracle and/or its affiliates. All rights reserved.
 net.java.dev.msv:xsdlib | Copyright (c) 2001-2013 Oracle and/or its affiliates.
@@ -5020,14 +5074,14 @@ org.antlr:stringtemplate | Copyright (c) 2003-2005 Terence Parr
 org.codehaus.woodstox:stax2-api | Copyright (c) 2005- Tatu Saloranta tatu.saloranta@iki.fi
 org.docbook:docbook-xml | Copyright © The Organization for the Advancement of Structured Information Standards OASIS]2001 And 2002 And 2003 And 2004 And 2005. All Rights Reserved.
 org.dojo:dojo | Copyright (c) 2004-2009 The Dojo Foundation All Rights Reserved.
-org.glassfish.jaxb:jaxb-runtime | Copyright (c) 2017  2022 Oracle and/or its affiliates. All rights reserved.
-org.glassfish.jaxb:jaxb-xjc | Copyright (c) 2017  2023 Oracle and/or its affiliates. All rights reserved.
+org.glassfish.jaxb:jaxb-runtime | Copyright (c) 2017  2022 Oracle and/or its affiliates. All rights reserved.
+org.glassfish.jaxb:jaxb-xjc | Copyright (c) 2017  2023 Oracle and/or its affiliates. All rights reserved.
 org.hamcrest:hamcrest-core | Copyright (c) 2000-2006 www.hamcrest.org
 org.hamcrest:hamcrest-integration | Copyright (c) 2000-2006 www.hamcrest.org
 org.hamcrest:hamcrest-library | Copyright (c) 2000-2015 www.hamcrest.org
 org.jaxen:jaxen | Copyright 2003-2006 The Werken Company. All Rights Reserved.
 org.ow2.asm:asm | Copyright (c) 2000-2011 INRIA, France Telecom All rights reserved.
-org.owasp.antisamy:antisamy | Copyright (c) 2007-2022  Arshan Dabirsiaghi  Sebastián Passaro
+org.owasp.antisamy:antisamy | Copyright (c) 2007-2022  Arshan Dabirsiaghi  Sebastián Passaro
 org.relaxng:jing | Copyright (c) 2001-2003 Thai Open Source Software Center Ltd
 org.webbitserver:webbit | Copyright (c) 2011 Joe Walnes and contributors
 qs | Copyright (c) 2014, Nathan LaFreniere and other [contributors](https://github.com/ljharb/qs/graphs/contributors)
@@ -5072,7 +5126,7 @@ BSD-4-CLAUSE LICENSE
 The Program includes some or all of the following packages that IBM 
 obtained under the BSD-4-CLAUSE License:
 
-supervisor (Copyright (c) 2002-2005  Daniel Krech  http://eikeon.com/)
+supervisor (Copyright (c) 2002-2005  Daniel Krech  http://eikeon.com/)
 
 Redistribution and use in source and binary forms, with or without 
 modification, is permitted provided that the following conditions are 
@@ -5454,6 +5508,7 @@ DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS,
 TRADEMARKS OR OTHER RIGHTS. 
 
 COPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL 
+
 OR CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR 
 DOCUMENTATION. 
 
@@ -5954,6 +6009,7 @@ javax.activation:activation | https://repo1.maven.org/maven2/javax/activation/ac
 javax.annotation:javax.annotation-api | https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2-b03/javax.annotation-api-1.2-b03-sources.jar
 javax.annotation:jsr250-api | https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0-sources.jar
 javax.jms:jms | https://mvnrepository.com/artifact/javax.jms/jms
+
 javax.jws:jsr181-api | https://repo1.maven.org/maven2/javax/jws/jsr181-api/1.0-MR1/jsr181-api-1.0-MR1-sources.jar
 javax.mail:mail | https://repo1.maven.org/maven2/javax/mail/mail/1.4.2/mail-1.4.2-sources.jar
 javax.servlet:javax.servlet-api | https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar
@@ -6454,6 +6510,7 @@ ESAPI 2.1
 The BSD License
 
 Copyright (c) 2007, The OWASP Foundation
+
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -6954,6 +7011,7 @@ libraries.
  #
  #  Project:    http://code.google.com/p/lao-dictionary/
  #  Dictionary: http://lao-dictionary.googlecode.com/git/Lao-Dictionary.txt
+
  #  License:    http://lao-dictionary.googlecode.com/git/Lao-Dictionary-LICENSE.txt
  #              (copied below)
  #
@@ -7032,7 +7090,7 @@ ignore-walk 3.0.1
 Copyright (c) Isaac Z. Schlueter and Contributors
 
 inherits
-Copyright (c) Isaac Z. Schlueter
+Copyright (c) 2011.2023 Isaac Z. Schlueter
 
 minipass 2.3.5
 Copyright (c) npm, Inc. and Contributors
@@ -7453,6 +7511,7 @@ distribute such modifications or work under the terms of Section 1
 above, provided that you also meet all of these conditions:
 
     a) The modified work must itself be a software library.
+
 
     b) You must cause the files modified to carry prominent notices
     stating that you changed the files and the date of any change.
@@ -7954,6 +8013,7 @@ identifiable sections of that work are not derived from the Library, and
 can be reasonably considered independent and separate works in 
 themselves, then this License, and its terms, do not apply to those 
 sections when you distribute them as separate works. But when you 
+
 distribute the same sections as part of a whole which is a work based on 
 the Library, the distribution of the whole must be on the terms of this 
 License, whose permissions for other licensees extend to the entire 
@@ -8285,7 +8345,7 @@ org.mozilla:js-1-5r3
 https://mvnrepository.com/artifact/rhino/js/1.5R3
 
 org.mozilla:rhino
-https://repo1.maven.org/maven2/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2-sources.jarrhino:js | https://mvnrepository.com/artifact/rhino/js
+https://github.com/mozilla/rhino/releases/tag/Rhino1_7_15_Release
 
 org.zeromq:jeromq
 https://repo1.maven.org/maven2/org/zeromq/jeromq/0.5.2/jeromq-0.5.2-sources.jar
@@ -8454,6 +8514,7 @@ Exhibit B - “Incompatible With Secondary Licenses” Notice
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 POSTGRESQL LICENSE
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
 The Program includes some or all of the following packages that IBM 
 obtained under the PostGRESQL License:
 
@@ -8954,6 +9015,7 @@ NOTICES AND INFORMATION FOR REFERENCED STANDARDS
 ===========================
 The Program includes certain information related to the Web Services Business Process Execution Language Version 2.0. IBM obtained permission to use the specification under the terms and conditions of the following license:
  
+
 Copyright(C) OASIS Open 2007. All Rights Reserved.
 This document and translations of it may be copied and furnished to others, and derivative works that comment on or otherwise explain it or assist in its implementation may be prepared, copied, published and distributed, in whole or in part, without restriction of any kind, provided that the above copyright notice and this paragraph are included on all such copies and derivative works. However, this document itself may not be modified in any way, such as by removing the copyright notice or references to OASIS, except as needed for the purpose of developing OASIS specifications, in which case the procedures for copyrights defined in the OASIS Intellectual Property Rights document must be followed, or as required to translate it into languages other than English.
 
@@ -9456,6 +9518,7 @@ trademark means trademarks, service marks, and similar rights.
 END OF ELASTIC LICENSE 2.0 (ELv2) NOTICES AND INFORMATION
 
 
+
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 COMMON PUBLIC LICENSE
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
@@ -9954,6 +10017,7 @@ NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
 NON-INFRINGEMENT (INCLUDING AS A CONSEQUENCE OF ANY PRACTICE OR IMPLEMENTATION
 OF THE SPECIFICATION), OR THAT THE CONTENTS OF THE SPECIFICATION ARE SUITABLE
 FOR ANY PURPOSE. This document does not represent any commitment to release or
+
 implement any portion of the Specification in any product.
 
 The Specification could include technical inaccuracies or typographical errors.
@@ -10454,6 +10518,7 @@ Apache Version 2.0, January 2004            http://www.apache.org/licenses/
       and issue tracking systems that are managed by, or on behalf of, the
       Licensor for the purpose of discussing and improving the Work, but
       excluding communication that is conspicuously marked or otherwise
+
       designated in writing by the copyright owner as `Not a Contribution.`
 
       `Contributor` shall mean Licensor and any individual or Legal Entity
@@ -10954,6 +11019,7 @@ of the following license notice from the Apache Software Foundation:
  Apache Software Foundation, please see <http://www.apache.org/>.
 
 END OF APACHE 1.1 NOTICES AND INFORMATION
+
 ========================================================
 
 APACHE 2.0 CODE. The Programs includes all or portions of the following software 
@@ -11454,6 +11520,7 @@ many individuals on behalf of the Apache Software Foundation.  For more informat
 Apache Software Foundation, please see http://www.apache.org.  
 
 * Commons Codec 1.3
+
 * ANT 1.6.2
 
 IBM obtained the right to use the software under the following license from the Apache Software 
@@ -11954,6 +12021,7 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
    "Contribution" shall mean any work of authorship, including
    the original version of the Work and any modifications or additions
+
    to that Work or Derivative Works thereof, that is intentionally
    submitted to Licensor for inclusion in the Work by the copyright owner
    or by an individual or Legal Entity authorized to submit on behalf of
@@ -12454,6 +12522,7 @@ libraries.
  #   * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
  #   * DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE 
  #   * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, 
+
  #   * OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
  #   * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
  #   * OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY 
@@ -12808,7 +12877,7 @@ react-router-dom | Copyright (c) React Training LLC 2015-2019
 redux | Copyright (c) 2015-present Dan Abramov
 redux-actions | Copyright (c) Andrew Clark
 redux-saga | Copyright (c) Redux-Saga team and other contributors
-selfsigned | Copyright (c) 2013 José F. Romaniello
+selfsigned | Copyright (c) 2013 José F. Romaniello
 styled-components | Copyright (c) 2016-present Glen Maddern and Maximilian Stoiber
 uuid | Copyright (c) 2010-2020 Robert Kieffer and other contributors
 uuidv4 | Copyright (c) 2014-2021 the native web.
@@ -12954,6 +13023,7 @@ END OF NOTICES AND INFORMATION
 ************************** End of Notices *******************************
 
 **********************************
+
 END OF IBM Content Foundation V5.6
 **********************************
 
@@ -13454,6 +13524,7 @@ versions will be similar in spirit to the present version, but may
 differ in detail to address new problems or concerns. 
 
 Each version is given a distinguishing version number. If the Library 
+
 specifies a version number of this License which applies to it and "any 
 later version", you have the option of following the terms and 
 conditions either of that version or of any later version published by 
@@ -13954,6 +14025,7 @@ org.apache.maven.doxia:doxia-sitetools
 org.apache.maven.doxia:doxia-test-docs
 org.apache.maven.plugin-tools:maven-plugin-annotations
 org.apache.maven.plugins:maven-antrun-plugin
+
 org.apache.maven.plugins:maven-assembly-plugin
 org.apache.maven.plugins:maven-clean-plugin
 org.apache.maven.plugins:maven-compiler-plugin
@@ -14454,6 +14526,7 @@ W3C® SOFTWARE NOTICE AND LICENSE
 Copyright © 1994-2001 World Wide Web Consortium, (Massachusetts 
 Institute of Technology, Institut National de Recherche en Informatique 
 et en Automatique, Keio University). All Rights Reserved. 
+
 http://www.w3.org/Consortium/Legal/ 
 
 This W3C work (including software, documents, or other related items) is 
@@ -14512,7 +14585,7 @@ MIT LICENSE
 The Program includes some or all of the following that IBM obtained
 under the MIT License:
 
- FileSaver.js | Copyright © 2016 
+ FileSaver.js | Copyright © 2016 
 Eli Grey
 .
 @babel/runtime | Copyright (c) 2014-present Sebastian McKenzie and other contributors
@@ -14953,6 +15026,7 @@ org.eclipse.persistence:eclipselink | https://repo1.maven.org/maven2/org/eclipse
 org.eclipse.persistence:org.eclipse.persistence.moxy | https://repo1.maven.org/maven2/org/eclipse/persistence/org.eclipse.persistence.moxy/2.7.2/org.eclipse.persistence.moxy-2.7.2-sources.jar
 org.eclipse.swt:org.eclipse.swt | https://mvnrepository.com/artifact/org.eclipse.swt/org.eclipse.swt/3.2.0-v3232o
 org.eclipse.ui:org.eclipse.ui.ide | https://github.com/eclipse-platform/eclipse.platform.ui
+
 
 END OF ECLIPSE PUBLIC LICENSE, VERSION 1 NOTICES AND INFORMATION
 
@@ -15454,6 +15528,7 @@ The Program includes some or all of the following that IBM obtained under the Ap
 
 Ant Contrib 1.0b2
 Apache Abdera 0.3, 0.4
+
 Apache Ant 1.7.1
 Apache ANTLR 2.7.2
 Apache Axiom 1.2.8
@@ -15953,6 +16028,7 @@ Intalio Inc. For written permission, please contact info@exolab.org.
 nor may `Castor` appear in their names without prior written
 permission of Intalio Inc. Exolab, Castor and Intalio are
 trademarks of Intalio Inc.
+
 
 5. Due credit should be given to the ExoLab Project
 (http://www.exolab.org/).
@@ -16455,6 +16531,7 @@ pluck, and partial) are based on work by Oliver Steele
 (http://osteele.com/sources/javascript/functional/functional.js)
 which was published under MIT License
 
+
 Javascript language helper functions: The Program includes all or portions of the
 following software which was obtained under the terms and conditions of the MIT
 License.
@@ -16954,6 +17031,7 @@ jsr250-api 1.0
 1. Definitions.
  
 1.1. `Contributor` means each individual or entity that creates or
+
 contributes to the creation of Modifications.
 
 1.2. `Contributor Version` means the combination of the Original
@@ -17454,6 +17532,7 @@ are met:
 1. Redistributions of source code must retain the above copyright
     notice, this list of conditions, and the following disclaimer.
  
+
 2. Redistributions in binary form must reproduce the above copyright
     notice, this list of conditions, and the disclaimer that follows 
     these conditions in the documentation and/or other materials 
@@ -17804,6 +17883,6 @@ END OF IBM Business Process Manager V8.6 CF2017.12
 
 
 
-L/N: L-UEJG-Z2937H
-D/N: L-UEJG-Z2937H
-P/N: L-UEJG-Z2937H
+L/N: L-GPHE-W5RGSC
+D/N: L-GPHE-W5RGSC
+P/N: L-GPHE-W5RGSC
