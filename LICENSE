@@ -1,12 +1,12 @@
-The translated license terms can be viewed here: https://www.ibm.com/support/customer/csol/terms/?li=L-GPHE-W5RGSC
+The translated license terms can be viewed here: https://www.ibm.com/support/customer/csol/terms/?li=L-FWZS-PUAT9S
 
 LICENSE INFORMATION
 
 The Programs listed below are licensed under the following License Information terms and conditions in addition to the Program license terms previously agreed to by Client and IBM. If Client does not have previously agreed to license terms in effect for the Program, the International Program License Agreement (i125-3301-15) applies.
 
 Program Name (Program Number):
-IBM Business Automation Workflow Enterprise V24.0.1.0 (5737-H41)
-IBM Business Automation Workflow Enterprise for Non-Production Environment V24.0.1.0 (5737-H41)
+IBM Business Automation Workflow Enterprise V25.0.0.0 (5737-H41)
+IBM Business Automation Workflow Enterprise for Non-Production Environment V25.0.0.0 (5737-H41)
 
 The following standard terms apply to Licensee's use of the Program.
 
@@ -20,30 +20,45 @@ Licensee is authorized to install and use the Supporting Programs identified bel
 
 Supporting Programs:
 IBM API Connect Professional 
-IBM Db2 Standard Edition 
-IBM Installation Manager and Packaging Utility for the Rational Software Platform 
+IBM Db2 Standard Edition 12.1
+IBM Db2 Standard Edition 11.5
+IBM Installation Manager and Packaging Utility for the Rational Software Platform
 IBM Support Assistant DataCollector 
-IBM Security Directory Suite Limited Edition 
+IBM Security Verify Directory Limited Edition 
 IBM WebSphere Application Server Network Deployment 
 IBM FileNet Content Manager
 IBM Content Navigator
 IBM Watson Explorer Advanced Edition
 IBM WebSphere Liberty 
-IBM Cloud Pak for Automation
 IBM Event Streams
+IBM Business Automation Insights
 
 Permitted Components
 
 Licensee is permitted to use only the following components or functions of the identified Bundled or Supporting Program:
 - Case Manager Crawler of Analytical Components only for the purpose of building Analytics Collections (of IBM Watson Explorer Advanced Edition)
 - Content Analytics Miner only for the purpose of analyzing the Analytics Collections (of IBM Watson Explorer Advanced Edition)
-- Business Automation Insight (of IBM Cloud Pak for Automation) 
-- Business Automation Application Engine (of IBM Cloud Pak for Automation)
-- IBM Business Automation Navigator (of IBM Cloud Pak for Automation)
 
 Prohibited Components
 
 Licensee is not authorized to use any of the following components or functions of the Program:
+- IBM WebSphere eXtreme Scale (of WebSphere Application Server)
+- pureScale clustering technology (of IBM  Db2 Standard Edition)
+- Db2 Connect (of IBM Db2 Standard Edition)
+- SQL Warehousing Tool (SQW) (of IBM Db2 Standard Edition)
+- IBM InfoSphere Data Replication 11.4 (CDC component) (of IBM Db2 Standard Edition)
+- IBM InfoSphere Data Replication 11.4 (SQL Replication, Q Replication and CDC for Db2 LUW components)
+- IBM Cognos Analytics 12  ( IBM  Db2 Standard Edition)
+- IBM Data Management Console ( IBM  Db2 Standard Edition)
+- Adaptive Compression and classic row compression (IBM  Db2 Standard Edition)
+- Db2 column-organized tables (IBM Db2 Standard Edition)
+- Federation with other data sources (IBM Db2 Standard Edition)
+- Index Compression (IBM  Db2 Standard Edition)
+- Materialized query tables (MQTs) (IBM  Db2 Standard Edition)
+- Partitioning - partitioned database environment (IBM Db2 Standard Edition)
+- Q Replication (IBM Db2 Standard Edition)
+- IBM Spectrum Scale Data Access (IBM Db2 Standard Edition)
+- IBM MQ 9.3 (IBM Db2 Standard Edition)
 - pureScale clustering technology (of IBM Db2 Standard Edition)
 - Db2 Connect (of IBM Db2 Standard Edition)
 - SQL Warehousing Tool (SQW) (of IBM Db2 Standard Edition)
@@ -53,6 +68,10 @@ Licensee is not authorized to use any of the following components or functions o
 - IBM WebSphere Application Server 9.0 (of IBM Db2 Standard Edition)
 - IBM Data Server Manager Enterprise Edition 2.1.5 (of IBM Db2 Standard Edition)
 - Workflow Center when used in Non-Production, unless for Use by Developer
+- IBM Connections Profiles (of IBM  Security Verify Directory)
+- IBM Security Directory Server Proxy server (of IBM Security Verify Directory) 
+- IBM Tivoli Federated Identity Manager Business Gateway (of IBM Security Verify Access (Virtual Edition) Federation Module)
+- Whitepages Application (of IBM Security Verify Directory)
 
 
 Non-Production Limitation
@@ -65,9 +84,11 @@ Licensee may install and use the following Program components, under the license
 - Process Federation Server
 - Task Prioritization
 - Workplace 
-- Business Automation Insight (of IBM Cloud Pak for Automation) 
-- Business Automation Application Engine (of IBM Cloud Pak for Automation)
-- IBM Business Automation Navigator (of IBM Cloud Pak for Automation)
+- Flink Job Manager, Management Rest API, Management back end (components of IBM Business Automation Insights)
+- IBM Business Automation Insights when used in Non-Production
+- IBM Business Automation Insights up to 6 VPCs or the number of VPCs of the Program, whichever is smaller
+- IBM Cloud Pak foundational services (component of the Program)
+- IBM Business Automation Navigator 
 - Workforce insights 
 - Message engine components for Business Process Choreographer, SCA, CEI
 - IBM Support Assistant Data Collector
@@ -114,7 +135,7 @@ Licensee may disclose the results of any benchmark test of the Program or its su
 Notwithstanding the foregoing, under no circumstances may Licensee publish the results of benchmark tests run on Oracle Outside In Technology without prior written permission.
 
 The above benchmarking terms apply to the following Programs or subcomponents:
- 
+.
 
 Source Components and Sample Materials
 
@@ -133,10 +154,6 @@ Authorized User is a unit of measure by which the Program can be licensed. An Au
 Concurrent User
 
 Concurrent User is a unit of measure by which the Program can be licensed. A Concurrent User is a person who is accessing the Program at any particular point in time. Regardless of whether the person is simultaneously accessing the Program multiple times, the person counts only as a single Concurrent User. The Program may be installed on any number of computers or servers, but Licensee must obtain entitlements for the maximum number of Concurrent Users simultaneously accessing the Program. Licensee must obtain an entitlement for each simultaneous Concurrent User accessing the Program in any manner directly or indirectly (for example: via a multiplexing program, device, or application server) through any means.
-
-Events Per Second (EPS)
-
-100, 500, 1K, and 2.5K Events Per Second are units of measure by which the Program can be obtained. An event is a log event generated from a server, application or device that can be processed for a specific purpose. Sufficient entitlements must be obtained to cover the maximum number of Events Per Second to be collected and processed by the Program at any time.
 
 Processor Value Unit (PVU)
 
@@ -157,8 +174,8 @@ Licensee is permitted to process 150 Content Operations and 300 Workflow Operati
 A Content Operation is each access or update to a document, folder or custom object within the Program as measured in the Program's usage tracking. 
 
 A Workflow Operation is accessing or performing a task in a workflow instance within the Program as measured in the Program's usage tracking. Each single workflow instance update counts as one individual Workflow Operation.
- 
-Entitlement Conversion Details 
+
+ Entitlement Conversion Details 
 
 Entitlement Values 
 
@@ -173,21 +190,21 @@ OR
 OR
 - Conversion Entitlement Ratio: 18 Employee Users / 1 VPC 
 - Conversion Entitlement Ratio: 1782 External Users / 1 VPC, where Licensee measures entitlement by Authorized or Employee User
- 
 If Licensee purchases VPC entitlements on or after December 16, 2022 and measures usage by capacity, Licensee must have entitlement to 5 VPCs for each Physical Core deployment of the Program.
-
-If Licensee purchased VPC entitlements prior to December 16, 2022, Licensee may continue to convert such VPC entitlements to PVUs per the following ratios:
+If Licensee purchased VPC entitlements prior to December 16, 2022, Licensee may continue to convert such VPC entitlements to PVUs per the 
+following ratios:
 - Conversion Entitlement Ratio: 14 PVUs / 1 VPC
 - Conversion Entitlement Ratio: 28 Non-Production PVUs / 1 VPC
 
-FileNet
+
+FileNet Content Manager
 
 Content Manager Text Search using Elasticsearch or OpenSearch (Component of the Program), instead of Content Search Services:
 - Conversion Entitlement Ratio: 7 Events per Second / 70 PVU
 - Events per Second equals documents indexed per second.
 
 "Conversion Entitlement Ratio n/m" means that Licensee can convert some number ('n') entitlements of the indicated metric for the listed program for every specified number ('m') entitlements of the specified metric for the Program. Once converted, Licensee may only use such converted entitlements for the listed program. The specified conversion does not apply to any entitlements for the Program that are not of the required metric type.
- 
+
 If the Client has acquired the Program as a result of a trade up or subscription license upgrade for the IBM Cloud Pak for Business Automation and IBM Business Automation Workflow User-Based Trade Up and Subscription License Upgrade Restriction, the Client must measure deployment for the trade up and subscription license upgrade on the user-based metrics of Authorized User, Employee User, External User, Concurrent User, and/or Infrequent User. No other metric shall be used for deployment measurement for license trade up and subscription license upgrade and subsequent additional license to this Program.
 
 Infrequent User
@@ -221,32 +238,37 @@ IBM FileNet eForms
 - Support: Nonsupported
 
 IBM Event Streams
-- Use Limitations: Used by Business Automation Insight (of IBM Cloud Pak for Automation) 
+- Use Limitations: Used by Business Automation Insights
 
 IBM Watson Explorer Advanced Edition
 - Use Limitations: Licensee is permitted to use the Permitted Components to analyze up to 100 Gigabytes of content stored in the Program's repository for use with Analytics Collections. A Gigabyte is 2 to the 30th power bytes.
 
 "Analytics Collections" means collections created in the Watson Explorer Administration Console.
 
+IBM Business Automation Insights
+- Use Limitations:  The Licensee shall limit usage of Business Automation Insights to only collecting events from the Program and IBM FileNet Content Manager.
+
+Business Automation Application Engine (component of The Program) 
+Use Limitations:   The Licensee shall limit usage of Business Automation Application to only run the Workplace application. The Business Automation Application Engine may use a maximum of the number of VPCs of The Program.
+
+IBM Db2 Standard Edition
+- Use Limitations: Use by Principal Program
+
 "Nonsupported" means the Supporting Program is provided without obligation of support and "AS IS," WITH NO WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING THE WARRANTY OF TITLE, NON-INFRINGEMENT OR NON-INTERFERENCE AND THE IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
 "Unrestricted" means that, notwithstanding the language above, Licensee's right to use the Supporting Program is not limited to use only in support of Licensee's use of the Principal Program. While the other restrictions on Licensee's use of the Supporting Program continue to apply, Licensee may use the Supporting Program for purposes independent of the licensed use of the Principal Program. 
+
+"Use by Principal Program" means that the Supporting Program is provided exclusively for use by the Principal Program. Neither Licensee nor any application, program or device is authorized to directly use or access the services of the Supporting Program except Licensee may access the Supporting Program to perform administrative functions for the Supporting Program such as backup, recovery and authorized configuration.
 
 Additional Supporting Program Details
 
 IBM Db2 Standard Edition Restrictions:
 - The Supporting Program may use a maximum of 16 processor cores and 128 GB of memory on each physical or virtual server; however, if the Supporting Program is used on a cluster of servers configured to work together using database partitioning or other permitted clustering technology, the Supporting Program may use a maximum of 16 processor cores and 128 GB of memory across all virtual or physical servers in that cluster.
 
-Business Automation Insight (of IBM Cloud Pak for Automation) Restrictions:
-- The Licensee shall limit usage of Business Automation Insight to only collecting events from the Program and IBM FileNet Content Manager. The Task Manager of Business Automation Insight may use a maximum of 6 VPCs or the number of VPCs of the Program, whichever is smaller. 
 
-Business Automation Application Engine (of IBM Cloud Pak for Automation) Restrictions:
-- The Licensee shall limit usage of Business Automation Application to only run the Workplace application. The Business Automation Application Engine may use a maximum of the number of VPCs of the Program.
-
-
-L/N: L-GPHE-W5RGSC
-D/N: L-GPHE-W5RGSC
-P/N: L-GPHE-W5RGSC
+L/N: L-FWZS-PUAT9S
+D/N: L-FWZS-PUAT9S
+P/N: L-FWZS-PUAT9S
 
 International Program License Agreement
 
