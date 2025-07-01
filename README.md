@@ -1,11 +1,6 @@
-# IBM Business Automation Workflow on Containers 25.0.0.0
-This repository includes the scripts, Kubernetes descriptors and resources to help you install the IBM Business Automation Workflow on Containers. Installation of the software components is done with the Cloud Pak operator. 
+# IBM Business Automation Workflow on Containers
+This repository is now used for 24.0.x releases:
+- 24.0.0: https://github.com/ibmbpm/BAW-Ctnr/tree/24.0.0
+- 24.0.1: https://github.com/ibmbpm/BAW-Ctnr/tree/24.0.1
 
-For information about installing, configuring, and running IBM Business Automation Workflow, see  [IBM Business Automation Workflow documentation](https://www.ibm.com/docs/en/baw/25.x).
-
-LICENSE for users of this repository [LICENSE](LICENSE)
-
-Legal notice for users of this repository [notices](notices)
-
-
-
+For 25.0.x, please access https://github.com/ibmbpm/cert-kubernetes-baw
